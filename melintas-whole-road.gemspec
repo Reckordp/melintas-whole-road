@@ -6,4 +6,5 @@ Gem::Specification.new do |specification|
   specification.files        = Dir.glob('lib/*')
   specification.license      = 'MIT'
   specification.homepage     = 'https://github.com/Reckordp/melintas-whole-road'
+  specification.add_dependency 'pathname'
 end
